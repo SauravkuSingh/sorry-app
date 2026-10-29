@@ -94,6 +94,7 @@ export default function Photos({ onNext }: Props) {
               className="w-full rounded-full bg-gradient-to-r from-rose-500 via-pink-500 to-rose-500 hover:from-rose-600 hover:via-pink-600 hover:to-rose-600 text-white font-bold py-6 sm:py-7 md:py-8 text-base sm:text-xl shadow-xl shadow-rose-500/25 cursor-pointer flex items-center justify-center gap-3"
             >
               <span>One last question... 💖</span>
+              <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6" />
             </Button>
           </motion.div>
         </div>
